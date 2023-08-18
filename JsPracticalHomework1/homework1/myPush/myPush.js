@@ -4,3 +4,6 @@ Array.prototype.myPush = function myPush() {
   }
   return this;
 };
+let arr = [1, 2, 3];
+arr.myPush(2, 5, 6);
+console.log(arr);

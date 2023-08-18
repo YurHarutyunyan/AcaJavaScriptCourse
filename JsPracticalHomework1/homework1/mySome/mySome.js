@@ -4,5 +4,5 @@ Array.prototype.myEvery = function mySome(callback) {
       return true;
     }
   }
-  false;
+ return  false;
 };

@@ -1,8 +1,7 @@
-Array.prototype.myEvery = function myEvery(callback) {
+Array.prototype.myMap = function myMap(callback) {
+  let arrayToReturn = [];
   for (let i = 0; i < this.length; i++) {
-    if (!callback(this[i], i, this)) {
-      return false;
-    }
+    arrayToReturn[i] = callback(this[i], i, this);
   }
-  return true;
+  return arrayToReturn;
 };
