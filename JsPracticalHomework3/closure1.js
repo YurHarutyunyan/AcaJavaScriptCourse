@@ -10,6 +10,4 @@ function createObject(value){
         }
     } 
 }
-let a = createObject()
-console.log(a.set(20))
-console.log(a.get())
+

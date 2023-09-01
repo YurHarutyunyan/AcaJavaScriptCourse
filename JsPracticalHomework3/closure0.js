@@ -6,6 +6,4 @@ let result = function closure0(){
         return counter;
     }
 }
-console.log(result())
-console.log(result())
-console.log(result())
+

@@ -10,7 +10,3 @@ function createCachingFunction(value){
         return value;
     }
 }
-createCachingFunction(5)
-createCachingFunction(3)
-createCachingFunction(4)
-createCachingFunction(5)
